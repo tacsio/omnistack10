@@ -32,6 +32,7 @@ li.dev-item header .user-info {
 	font-size: 13px;
 	color: #999;
 	margin-top: 2px;
+	text-transform: capitalize;
 }
 
 li.dev-item p {

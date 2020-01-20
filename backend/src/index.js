@@ -5,8 +5,8 @@ const routes = require('./routes')
 
 const app = express();
 
-//const connectionUrl = "mongodb://localhost:27017/omnistack";
-const connectionUrl = "mongodb://192.168.99.100:27017/omnistack";
+const connectionUrl = "mongodb://localhost:27017/omnistack";
+//const connectionUrl = "mongodb://192.168.99.100:27017/omnistack";
 
 mongoose.connect(connectionUrl, {
   useUnifiedTopology: true,

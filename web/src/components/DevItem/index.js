@@ -8,7 +8,7 @@ function DevItem( { dev } ) {
 			<header>
 				<img src={dev.avatar_url} alt="tacsio"/>
 				<div className="user-info">
-					<strong>{dev.name}</strong>
+					<strong>{dev.name || dev.github_username}</strong>
 					<span>{dev.techs.join(', ')}</span>
 				</div>
 			</header>
